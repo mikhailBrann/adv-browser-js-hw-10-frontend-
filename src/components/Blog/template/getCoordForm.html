@@ -1,0 +1,16 @@
+<form class="{{class}} form">
+    <div class="{{class}}__notation form__notation">
+        <p>Что то пошло не так</p>
+        <p>У сожалению, нам не удалось определить Ваше местоположение, пожайлуйста, дайте разрешение на использование геолокации, либо введите координаты вручную.</p>
+        <p>Широта и далгота через запятую</p>
+    </div>
+
+    <div class="{{class}}__err form__err"></div>
+    <input type="hidden" name="messText" value="{{messText}}"/>   
+    <input class="{{class}}__input form__input" type="text" name="coordinate" placeholder="Введите координаты"/>
+
+    <div class="{{class}}__control-btns form__control-btns">
+        <button class="{{class}}__control-btn form__control-btn" type="reset">Отмена</button>
+        <button class="{{class}}__control-btn form__control-btn" type="submit">Ok</button>
+    </div>
+</form>

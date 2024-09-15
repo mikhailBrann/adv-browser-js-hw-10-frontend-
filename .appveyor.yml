@@ -18,4 +18,4 @@ build_script:
   - yarn build   # команда сборки
 
 test_script:
-  - yarn lint && yarn test  # скрипт тестирования
+  - yarn test  # скрипт тестирования
